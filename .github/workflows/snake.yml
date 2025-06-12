@@ -34,3 +34,4 @@ jobs:
           add: "dist/github-contribution-grid-snake.svg"
           new_branch: snake
           pull: true
+          github_token: ${{ secrets.GITHUB_TOKEN }}
