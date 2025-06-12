@@ -29,10 +29,8 @@ Here are some ideas to get you started:
 
 ## Contributions 📢
  
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Tutzs/Tutzs/snake/dist/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Tutzs/Tutzs/snake/dist/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Tutzs/Tutzs/snake/dist/github-contribution-grid-snake.svg">
-</picture>
+<p align="center">
+  <img src="https://github.com/Tutzs/Tutzs/blob/snake/dist/github-contribution-grid-snake.svg" alt="Snake animation">
+</p>
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=120&section=footer"/>
