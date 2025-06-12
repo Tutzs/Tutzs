@@ -30,7 +30,7 @@ Here are some ideas to get you started:
 ## Contributions 📢
  
 <p align="center">
-  <img src="https://github.com/Tutzs/Tutzs/blob/snake/dist/github-contribution-grid-snake.svg" alt="Snake animation">
+  <img src="https://github.com/Tutzs/Tutzs/blob/snake/dist/github-contribution-grid-snake-dark.svg?palette=github-dark" alt="Snake animation">
 </p>
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=120&section=footer"/>

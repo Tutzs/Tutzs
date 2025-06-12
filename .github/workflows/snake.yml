@@ -25,13 +25,18 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: snake
-          path: dist/github-contribution-grid-snake.svg
+          path: 
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg
 
       - uses: EndBug/add-and-commit@v9
         with:
           author_name: github-actions
           author_email: github-actions@github.com
           message: "generate contribution grid snake"
-          add: "dist/github-contribution-grid-snake.svg"
+          add: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg
           new_branch: snake
+          pull: true
           github_token: ${{ secrets.GITHUB_TOKEN }}
