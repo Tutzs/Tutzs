@@ -18,20 +18,18 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
-          color_snake: "#00ff99"
-          color_dots: "#222222, #393939, #bdbdbd, #00ff99, #40c463, #30a14e, #216e39"
-          background: "#0d1117"
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
       - uses: actions/upload-artifact@v4
         with:
           name: snake
-          path: dist/github-contribution-grid-snake.svg
+          path: dist/github-snake-dark.svg
 
       - uses: EndBug/add-and-commit@v9
         with:
           author_name: github-actions
           author_email: github-actions@github.com
           message: "generate contribution grid snake"
-          add: "dist/github-contribution-grid-snake.svg"
+          add: "dist/github-snake-dark.svg"
           new_branch: snake
