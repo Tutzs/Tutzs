@@ -29,6 +29,9 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg
 
+      - name: Fetch all branches
+        run: git fetch --all
+        
       - uses: EndBug/add-and-commit@v9
         with:
           author_name: github-actions
