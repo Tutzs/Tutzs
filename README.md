@@ -7,9 +7,9 @@
 </div>
 
 <div style="margin-top: 10px" align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Tutzs&theme=tokyonight&show_icons=true&hide_border=false&count_private=true&cache_seconds=1800" alt="GitHub Stats"/>
+  <img height="180em" src="https://github-readme-stats-six-alpha-63.vercel.app/api?username=Tutzs&theme=tokyonight&show_icons=true&hide_border=false&count_private=true&cache_seconds=1800" alt="GitHub Stats"/>
   &nbsp;
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tutzs&theme=tokyonight&layout=compact&hide_border=false&cache_seconds=1800" alt="Top Languages"/>
+  <img height="180em" src="https://github-readme-stats-six-alpha-63.vercel.app/api/top-langs/?username=Tutzs&theme=tokyonight&layout=compact&hide_border=false&cache_seconds=1800" alt="Top Languages"/>
 </div>
 
 ## Contributions 📢
